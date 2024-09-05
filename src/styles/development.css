@@ -1,0 +1,385 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"); */
+/* font-family: "Roboto Serif", serif; */
+
+.navbar-nav .btn-color:hover {
+  border: 2px solid #002237 !important;
+  background-color: #ffffff !important;
+  color: #002237 !important;
+}
+
+.nav-right-sub-heading:hover {
+  font-weight: 600;
+}
+
+/* added by me  */
+.navbar-toggler-icon {
+  background-image: none !important;
+  background-color: var(--bs-gray-800);
+  height: 3px;
+  width: 25px;
+  margin: 10px 0;
+  position: relative;
+  transition: all 0.35s ease-out;
+  transform-origin: center;
+}
+
+.navbar-toggler-icon::before {
+  display: block;
+  background-color: var(--bs-gray-800);
+  height: 3px;
+  content: "";
+  position: relative;
+  top: -7px;
+  transition: all 0.15s ease-out; /*taken down to hide quicker*/
+  transform-origin: center;
+}
+
+.unique-area-1 {
+  background: #b7d3fe;
+  transition: background 0.3s ease;
+}
+
+.unique-area-2 {
+  background: #ffb39d;
+  transition: background 0.3s ease;
+}
+.unique-area-3 {
+  background: #59836a;
+  transition: background 0.3s ease;
+}
+.unique-area-4 {
+  background: #ffbb54;
+  transition: background 0.3s ease;
+}
+
+.border-style {
+  border-bottom: 1px solid #ffffff;
+}
+.text-style {
+  color: #ffffff !important;
+}
+.text-font-style {
+  font-size: 24px !important;
+  font-weight: 600 !important;
+}
+.service-para {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-style {
+  height: 60px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: none;
+  transition: 0.25s;
+  color: #002237;
+  margin-bottom: 30px;
+  padding: 8px 24px;
+}
+.btn-style:hover {
+  border: 2px solid #002237;
+  background-color: #002237;
+  color: #ffffff;
+}
+
+/* about us css start */
+.about-banner-title {
+  /* border-bottom: 1px solid #aba2a2; */
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+.about-banner-title .about-main-title {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+.about-sub-heading {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.about-heading {
+  font-size: 56px;
+  font-weight: 500;
+  font-family: Roboto Serif;
+}
+
+.about-journey-area {
+  margin: 60px auto;
+}
+.about-journey-left-side {
+  display: flex;
+  flex-direction: column;
+}
+.about-journey-left-heading {
+  font-family: Roboto Serif;
+  font-size: 56px;
+  font-weight: 500;
+}
+
+.about-journey-left-paragraph {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  /* line-height: 30px; */
+}
+.about-center-heading {
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.year-title > div {
+  border-radius: 30px;
+  background: #d9d9d9;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.year-title > div:hover {
+  background: #002237;
+  color: #ffffff;
+}
+
+/* Dedication css */
+.dedication-area {
+  /* border: 1px solid red; */
+  position: relative;
+  background: #002237;
+  /* background: url(../../public/assets/img/dedication.png) no-repeat 1000px 40px; */
+}
+.dedication-area .container {
+  padding: 60px 0px 60px 0px;
+  margin: 60px auto;
+}
+.dedication-title {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 68px;
+  font-family: Roboto Serif;
+}
+.dedication-para {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 50px;
+}
+.img-journey-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-top: 0px;
+}
+/* dedication started */
+
+.dedication-boxe-1,
+.dedication-boxe-2,
+.dedication-boxe-3,
+.dedication-boxe-4 {
+  border-radius: 8px;
+  overflow: hidden;
+}
+.dedication-boxe-1 {
+  background: #ffffff;
+  color: #000000;
+  text-align: center;
+  height: 228px;
+}
+.dedication-boxe-2 {
+  background: #59836a;
+  color: #ffffff;
+  height: 228px;
+}
+.dedication-boxe-3 {
+  background: #ffb39d;
+  position: relative;
+  z-index: 1;
+  height: 228px;
+}
+.dedication-boxe-4 {
+  background: #ffc978;
+  position: relative;
+  z-index: 1;
+  height: 228px;
+}
+
+.dedication-boxe-1 h1,
+.dedication-boxe-2 h1,
+.dedication-boxe-3 h1,
+.dedication-boxe-4 h1 {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.dedication-boxe-1 h6,
+.dedication-boxe-2 h6,
+.dedication-boxe-3 h6,
+.dedication-boxe-4 h6 {
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 25px;
+  margin: 0;
+}
+.dedication-img {
+  position: absolute;
+  top: 4%;
+  right: 0%;
+}
+
+/* dedication ended */
+
+/* claim area css start */
+
+.claim-area-upper-side-heading {
+  font-family: Roboto Serif;
+  font-size: 56px;
+  font-weight: 500;
+}
+
+.claim-area-upper-side-paragraph {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.claim-area {
+  margin: 60px auto;
+}
+
+.claim-boxe-1 h6,
+.claim-boxe-2 h6,
+.claim-boxe-3 h6,
+.claim-boxe-4 h6 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 5px 10px !important;
+  margin: 0;
+}
+
+.claim-boxe-1 p,
+.claim-boxe-2 p,
+.claim-boxe-3 p,
+.claim-boxe-4 p {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 5px 10px !important;
+  margin: 0;
+}
+/* claim area css end */
+
+/* team css start  */
+.team-area {
+  margin: 60px auto;
+}
+.team-boxe-1 {
+  position: relative;
+}
+.team-area-upper-side-heading {
+  font-size: 56px;
+  font-weight: 500;
+  font-family: Roboto Serif;
+}
+.team-area-upper-side-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.team-title-heading {
+  background: #f1f2f2;
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  z-index: 1000;
+  border-radius: 0px 0px 16px 16px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+.team-sub-headding {
+  margin-bottom: 0px;
+}
+/* team css end */
+
+/* core value start  */
+.core-values-area {
+  margin: 100px auto;
+  background: url(/assets/media/bg-net.png) no-repeat 850px 160px;
+}
+
+.core-value-img-2 {
+  margin-left: 200px;
+}
+.img-core-1 {
+  max-width: 100%;
+  height: auto;
+}
+.img-core-2 {
+  max-width: 100%;
+  height: auto;
+}
+/* core value end */
+
+/* careers page css start */
+.career-heading {
+  font-family: Roboto Serif;
+  font-size: 56px;
+  font-weight: 500;
+  text-align: left;
+}
+.career-sub-heading {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+.career-job-area {
+  margin: 60px auto;
+}
+.career-job-title {
+  font-family: Roboto Serif;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 54px;
+  text-align: left;
+}
+.career-job-input {
+  margin-top: 20px;
+}
+.career-job-input input {
+  width: 980px;
+  height: 56px;
+  border-radius: 4px 0px 0px 0px;
+  /* opacity: 0px; */
+  background: #f1f1f1;
+  border: 1px solid #b3b3b3;
+}
+.career-job-input button {
+  background: #002237;
+  width: 248px;
+  height: 56px;
+  border-radius: 0px 4px 4px 0px;
+  /* opacity: 0px; */
+  color: #ffffff;
+}
+/* careers page css end */
+
+@media (min-width: 992px) {
+  .nav-center-width {
+    width: 50%;
+  }
+  .dropdown-menu {
+    width: 100%;
+    margin: 0%;
+  }
+}
+
+/* added by me css end */

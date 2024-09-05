@@ -1,0 +1,489 @@
+@media screen and (max-width: 992px) {
+  .service-contact-head h4 {
+    font-size: 21px;
+    line-height: 28px;
+  }
+
+  .details-new{
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 20px;
+  }
+
+  .service-contact-head p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .service-sec h2 {
+    font-size: 40px;
+  }
+
+  .service-sec {
+    padding: 30px 15px 40px;
+  }
+
+  .service-head h2 {
+    font-size: 40px;
+    line-height: 30px;
+  }
+
+  .service-head {
+    margin-bottom: 10px;
+  }
+
+  .service-para {
+    display: block;
+  }
+
+  .service-card h4 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .service-banner {
+    background-image: url(/assets/media/service/section-head.png);
+  }
+
+  .case-studies-flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .case-set-mobile {
+    margin-bottom: 30px;
+  }
+
+  .service-d-head h2 {
+    font-size: 30px;
+  }
+
+  .case_d_con {
+    margin-bottom: 20px;
+  }
+
+  .common-contact {
+    padding: 50px 0px;
+  }
+
+  .uparrow {
+    padding: 10px 10px;
+  }
+
+  .case-d-num {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .case_d_opt {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .emproving_secound h4 {
+    font-size: 30px;
+  }
+
+  /* .emproving_secound p {
+    text-align: justify;
+  } */
+
+  .emproving_secound {
+    padding: 50px 0px;
+  }
+
+  .career-job-area {
+    margin: 25px auto;
+  }
+
+  .grid-item img {
+    max-height: 30px;
+  }
+
+  .set-text {
+    /* margin-top: 10px; */
+    font-size: 15px;
+  }
+
+  .commom-heading h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .banner-right-side-h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .common-flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .case_d_right_img {
+    margin-top: 15px;
+  }
+
+  .sub-text-heading h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .key_sec_row {
+    margin-top: 0px;
+  }
+
+  /* .normal-desc,
+  .commom-heading p,
+  .digital-stay p,
+  li {
+    text-align: justify;
+  } */
+
+  .key-object {
+    margin: 0px 0px;
+  }
+
+  .emproving_secound h4 {
+    font-size: 30px;
+  }
+
+  .phone-mt-5 {
+    margin-top: 30px;
+  }
+
+  .work-area-lower-sides {
+    padding: 30px 0px 20px 30px !important;
+  }
+
+  .case-blog {
+    margin: 50px 0px 100px;
+  }
+
+  .digital_sec_bg::before {
+    left: 0;
+  }
+
+  .digital_sec_bg {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .service_details_our {
+    justify-content: left !important;
+  }
+
+  .exp-right-low {
+    display: block;
+    justify-content: space-between;
+  }
+
+  .exp-right-upper {
+    display: block;
+    justify-content: end;
+    gap: 4rem;
+  }
+  .service-d-stay ul li {
+    padding-left: 45px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .banner-area {
+    margin-top: 20px;
+  }
+
+  .service-d-following-head h3 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .commom-heading h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .service-contact {
+    margin-bottom: 0px;
+    padding-top: 50px;
+  }
+  .commom-heading p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .normal-desc {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .sub-text-heading h3 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .banner-area {
+    padding: 10px 0;
+  }
+
+  .banner-right-side-h3 {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 18px;
+  }
+
+  .digital-case-studies {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .digital-main-set {
+    justify-content: start;
+  }
+
+  .case-card-head h4 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .work-lower-right {
+    display: none;
+  }
+  .work-para {
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  .about-box {
+    bottom: -60px;
+    left: 10%;
+  }
+  .stats-area {
+    display: block;
+  }
+  .about-us-area {
+    background: url(/assets/media/back.png) no-repeat 400px 400px;
+  }
+  .stats-area-paragraph {
+    padding: 0;
+  }
+  .unique-area-label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .about-us-area {
+    margin: 60px auto 172px auto;
+  }
+
+  .info-box-set {
+    flex-direction: column;
+  }
+
+  .time-box {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .inner-head-wrap h3 {
+    font-size: 24px;
+  }
+
+  .inner-head-wrap p {
+    font-size: 17px;
+    line-height: 25px;
+  }
+
+  .center-set {
+    margin: 10px 0px;
+  }
+
+  .service-contact-head h4 {
+    margin-top: 20px;
+  }
+
+  .service-sec h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .service-sec p {
+    font-size: 16px;
+    line-height: 26px;
+    /* text-align: justify; */
+  }
+
+  .service-button {
+    width: auto;
+  }
+
+  .service-head h2 {
+    font-size: 35px;
+    line-height: 30px;
+  }
+
+  .service-card h4 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .case-btn-set {
+    flex-direction: column;
+  }
+
+  .case-pad {
+    --bs-gutter-x: 20px !important;
+    --bs-gutter-y: 40px !important;
+  }
+
+  .case-mobile-btn {
+    margin-top: 20px;
+  }
+
+  .service-d-following-industries-set {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+
+  .service-d-stay ul li::before {
+    left: 0px;
+  }
+
+  /* case-details */
+
+  .work-area-lower-sides {
+    padding: 10px 0px !important;
+  }
+
+  /* .work-area-lower-paragraph {
+    text-align: justify;
+  } */
+
+  .mt-36 {
+    margin-top: 0px;
+  }
+
+  .common-flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .case_d_right_img {
+    margin-top: 15px;
+  }
+
+  .key_sec_row {
+    margin-top: 0px;
+  }
+
+  /* .normal-desc,
+  .commom-heading p,
+  .digital-stay p,
+  li {
+    text-align: justify;
+  } */
+
+  .key-object {
+    margin: 0px 0px;
+  }
+
+  .emproving_secound h4 {
+    font-size: 30px;
+  }
+
+  .phone-mt-5 {
+    margin-top: 30px;
+  }
+
+  .case-blog {
+    margin: 50px 0px 100px;
+  }
+  /* staff css start */
+  .process-container {
+    flex-direction: column;
+  }
+
+  .process-arrow {
+    display: none;
+  }
+
+  .process-step {
+    margin-bottom: 20px;
+  }
+
+  .common-project-button:hover {
+    border: 2px solid #002237;
+    background-color: #ffffff;
+    color: #002237;
+  }
+
+  .nav-link:hover {
+    font-weight: 600 !important;
+  }
+
+  .our_img {
+    width: 586px;
+    height: 684px;
+  }
+
+  .our_img img {
+    width: 100%;
+    height: 100%;
+  }
+  .tools {
+    min-height: 170px;
+  }
+  .staff-stay h2 {
+    margin-bottom: 20px;
+    line-height: 50px;
+    font-size: 33px;
+  }
+  .top-space {
+    margin-bottom: 50px;
+  }
+}
+/* staff css end */
+
+@media screen and (max-width: 576px) {
+  .exp-right-low,
+  .exp-right-upper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+  }
+  .stats-area-heading,
+  .about-us-left-heading,
+  .work-area-upper-heading,
+  .service-area-upper-side-heading {
+    font-size: 48px;
+  }
+  .experience-lower {
+    padding: 42px 16px !important;
+  }
+  .exp-right-upper {
+    gap: 10px;
+  }
+  .experience-area-heading {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .about-box {
+    bottom: -60px;
+    left: 5%;
+    padding: 16px;
+  }
+  .work-area-lower-side {
+    padding: 20px !important;
+    border-radius: 0;
+  }
+  .about-us-left-button,
+  .about-box-button .btn,
+  .work-area-lower-button,
+  .unique-area-button {
+    width: 100%;
+  }
+}

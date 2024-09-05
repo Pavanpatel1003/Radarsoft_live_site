@@ -1,0 +1,90 @@
+@media screen and (max-width: 1399px) {
+  .about-heading {
+    line-height: 56px;
+  }
+  .core-value-img-2 {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .about-journey-left-heading {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .about-journey-left-heading {
+    font-size: 42px;
+  }
+  .about-center-heading {
+    margin: 8px 0px;
+  }
+  .year-title > div {
+    font-size: 16px;
+  }
+  .img-journey-fluid {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .about-heading {
+    font-size: 48px;
+  }
+  .about-banner-title .about-main-title {
+    margin-bottom: 20px;
+  }
+  .about-sub-heading {
+    margin-top: 20px;
+  }
+  .claim-area-upper-side-heading {
+    font-size: 48px;
+  }
+  .team-area-upper-side-heading {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .dedication-title {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .about-banner-title {
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    padding-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 767px) {
+  .service-para {
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 20px;
+    align-items: flex-start;
+  }
+  .exp-low-para {
+    width: 150px;
+    text-align: left;
+  }
+  .about-journey-area {
+    margin: 0px auto;
+  }
+  .core-values-area {
+    margin: 0px auto;
+  }
+  .claim-area {
+    /* margin: auto auto 0px auto; */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .year-title > div {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+}
