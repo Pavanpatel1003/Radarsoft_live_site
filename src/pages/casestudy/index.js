@@ -28,7 +28,7 @@ const CaseStudy = () => {
       </section>
 
       {/* casestudy title section */}
-      <section className="career-banner">
+      <section className="career-banner common_margin_space">
         <div className="container">
           <div className="career-banner-title">
             <div className="commom-heading">
@@ -44,7 +44,7 @@ const CaseStudy = () => {
       </section>
 
       {/* casestudy banner section */}
-      <section className="py-4">
+      <section className="common_margin_space">
         <div className="w-100 h-100 career_img">
           <Image
             className="w-100 d-lg-block"
@@ -54,7 +54,7 @@ const CaseStudy = () => {
         </div>
       </section>
 
-      <section className="case-studies-start">
+      <section className="case-studies-start common_margin_space">
         <div className="container">
           <div className="row">
             <div className="case-studies-flex">
@@ -82,7 +82,7 @@ const CaseStudy = () => {
         </div>
       </section>
 
-      <section className="case-blog">
+      <section className="case-blog mb-100">
         <div className="container">
           <div className="row row-cols-1 row-cols-lg-2 case-pad">
             <div className="col">

@@ -366,10 +366,10 @@ ul {
 
 /* CASE STUDIES */
 
-.case-back-studies {
+/* .case-back-studies {
   margin-top: 40px;
   margin-bottom: 40px;
-}
+} */
 
 .case-studies-btn {
   color: #000;
@@ -407,10 +407,10 @@ ul {
   justify-content: space-between;
   align-items: center;
 }
-
+/* 
 .case-studies-start {
   margin-top: 50px;
-}
+} */
 
 .service-head p {
   line-height: 28px;
@@ -482,9 +482,9 @@ ul {
   --bs-gutter-y: 40px !important;
 }
 
-.case-blog {
+/* .case-blog {
   margin: 0px 0px 100px;
-}
+} */
 
 /* service details */
 
@@ -672,10 +672,10 @@ li {
   font-weight: 500;
 }
 
-.service-contact {
+/* .service-contact {
   margin-bottom: 90px;
   padding-top: 70px;
-}
+} */
 
 .grid-container {
   display: grid;
@@ -913,8 +913,8 @@ li {
 }
 
 .career-btn {
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-bottom: 70px;
   text-align: end;
   font-weight: 600;
   font-size: 20px;
@@ -930,18 +930,18 @@ li {
   height: 100%;
 }
 
-.result-sec {
+/* .result-sec {
   margin: 50px 0px;
-}
+} */
 
-.key-sec,
+/* .key-sec,
 .key-object {
   margin: 50px 0px;
-}
+} */
 
-.our-tech-sec {
+/* .our-tech-sec {
   margin: 70px 0px;
-}
+} */
 
 .commom-heading {
   margin-bottom: 20px;
@@ -1019,13 +1019,13 @@ li {
   display: block;
 } */
 
-.chalange-sec {
+/* .chalange-sec {
   margin-top: 70px;
-}
+} */
 
-.Optimized-sec {
+/* .Optimized-sec {
   margin-top: 70px;
-}
+} */
 
 .common-flex {
   display: flex;
@@ -1047,23 +1047,23 @@ li {
   height: 100%;
 }
 
-.Empowering-sec {
+/* .Empowering-sec {
   margin-top: 50px;
-}
+} */
 
-.our-process {
+/* .our-process {
   margin-top: 50px;
   margin-bottom: 50px;
-}
+} */
 
 .key_sec_row {
   margin-top: 50px;
 }
 
-.common-contact {
+/* .common-contact {
   background: #f7f7f7;
   padding: 100px 0px;
-}
+} */
 
 .emproving_secound {
   background: #07131c;
@@ -1208,9 +1208,9 @@ li {
   font-weight: 400;
 }
 
-.inner-head {
+/* .inner-head {
   margin: 80px 0px;
-}
+} */
 
 .inner-head-wrap {
   background-image: url(/assets/media/Contact/contact-inner.png);
@@ -1375,9 +1375,9 @@ input:focus-visible {
 
 /* CONTACT FINISHED */
 
-.career-banner {
-  margin: 50px 0px 0px 0px;
-}
+/* .career-banner {
+  margin-top: 60px;
+} */
 
 .work-area-lower-anchor-blue {
   color: #0266ff;
@@ -1505,7 +1505,42 @@ background-image: url(/assets/media/k.png);
   font-size: 14px;
 }
 
+.mb-150 {
+  margin-bottom: 150px;
+}
 
-.mb-120{
-  margin-bottom: 120px;
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.mb_100 {
+  margin-bottom: 100px;
+}
+
+.first_space {
+  margin-top: 110px;
+}
+
+.common_margin_space {
+  margin-top: 100px;
+}
+
+.unique-area-label {
+  display: flex;
+  align-items: center;
+}
+
+.experience-lower {
+  background: #002237;
+  padding: 48px !important;
+  margin-top: 50px;
+}
+
+.both_section {
+  margin-bottom: 50px;
+}
+
+.unique-area {
+  display: block;
+  padding: 60px 0 !important;
 }

@@ -41,7 +41,7 @@ const Services = () => {
   return (
     <>
       {/* service title section */}
-      <section className="career-banner">
+      <section className="career-banner common_margin_space">
         <div className="container">
           <div className="career-banner-title">
             <div className="commom-heading">
@@ -63,7 +63,7 @@ const Services = () => {
       </section>
 
       {/* service banner section */}
-      <section className="py-4">
+      <section className="common_margin_space">
         <div className="w-100 h-100 career_img">
           <Image
             className="w-100 d-lg-block"
@@ -74,8 +74,8 @@ const Services = () => {
       </section>
 
       {/* START OUR SERVICE */}
-      <section className="service-cards">
-        <div className="container mt-5 mb-5">
+      <section className="service-cards common_margin_space">
+        <div className="container">
           <div className="commom-heading">
             <h2>Our Services</h2>
           </div>
@@ -383,7 +383,7 @@ const Services = () => {
       {/* END OUR SERVICE */}
 
       {/* START COMMON CONTACT */}
-      <section className="common-contact">
+      <section className="common-contact common_margin_space mb-100">
         <div className="container">
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">

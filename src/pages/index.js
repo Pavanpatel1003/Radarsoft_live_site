@@ -110,7 +110,7 @@ export default function Home() {
       </Head>
       <main className={`main`}>
         {/* <!--banner area started--> */}
-        <section className="banner-area">
+        <section className="banner-area first_space">
           <div className="container">
             <div className="row">
               <div className="col-lg-6">
@@ -249,7 +249,7 @@ export default function Home() {
         {/* <!--banner area finished--> */}
 
         {/* <!--logo promtion --> */}
-        <section className="logo-promtion">
+        <section className="logo-promtion common_margin_space common_margin_space">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
@@ -271,7 +271,7 @@ export default function Home() {
         {/* <!--logo promtion finished--> */}
 
         {/* <!--unique area--> */}
-        <section className={`unique-area col-md-12 ${backgroundClass}`}>
+        <section className={`unique-area common_margin_space col-md-12 ${backgroundClass}`}>
           <div className="container">
             <div className="row">
               <div className="unique-area-label">
@@ -515,10 +515,10 @@ export default function Home() {
         {/* <!--unique area finished--> */}
 
         {/* <!--our service area started--> */}
-        <section className="service-area col-md-12">
+        <section className="service-area col-md-12 common_margin_space">
           <div className="container">
             <div className="row">
-              <div className="mb-md-5 mb-3">
+              <div className="both_section">
                 <h1 className="service-area-upper-side-heading m-0">
                   Our Services
                 </h1>
@@ -601,10 +601,10 @@ export default function Home() {
         {/* <!--our service area closed--> */}
 
         {/* <!--our work area started--> */}
-        <section className="work-area col-md-12">
+        <section className="work-area col-md-12 common_margin_space">
           <div className="container">
             <div className="row">
-              <div className="mb-md-5 mb-3 work-para">
+              <div className="work-para">
                 <span>
                   <h1 className="work-area-upper-heading m-0">Our Work</h1>
                   <p className="work-area-upper-paragraph mt-3">
@@ -678,10 +678,10 @@ export default function Home() {
         {/* <!--our work area closed--> */}
 
         {/* <!--experience area started--> */}
-        <section className="experience-area col-md-12">
+        <section className="experience-area col-md-12 common_margin_space">
           <div className="container">
             <div className="row">
-              <div className="mb-md-5 mb-3">
+              <div className="">
                 <h1 className="experience-area-heading">
                   Over 5+ years of hands-on experience, we bring a wealth of
                   knowledge and expertise to every project.
@@ -746,7 +746,7 @@ export default function Home() {
         {/* <!--experience area closed--> */}
 
         {/* <!--about us started--> */}
-        <section className="about-us-area col-md-12 mb-120">
+        <section className="about-us-area col-md-12 mb-150 common_margin_space">
           <div className="container">
             <div className="row justify-content-between">
               <div className="about-us-left-side col-lg-5 col-12">

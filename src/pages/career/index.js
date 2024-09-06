@@ -19,7 +19,7 @@ const Career = () => {
   return (
     <>
       {/* Career title section */}
-      <section className="career-banner">
+      <section className="career-banner common_margin_space">
         <div className="container">
           <div className="career-banner-title">
             <div className="commom-heading">
@@ -36,7 +36,7 @@ const Career = () => {
       </section>
 
       {/* Career banner section */}
-      <section className="py-4">
+      <section className="common_margin_space">
         <div className="w-100 h-100 career_img">
           <Image
             className="w-100 d-lg-block"
@@ -47,7 +47,7 @@ const Career = () => {
       </section>
 
       {/* Careers section */}
-      <section className="career-job-area col-md-12">
+      <section className="career-job-area col-md-12 common_margin_space">
         <div className="container">
           <div className="row">
             <div className="commom-heading">
@@ -74,7 +74,7 @@ const Career = () => {
       </section>
 
       {/* Careers job list section */}
-      <section className="career-job-list-area col-md-12">
+      <section className="career-job-list-area col-md-12 common_margin_space">
         <div className="container">
           <div className="row">
             <p className="career-job-list-title">10 jobs found</p>

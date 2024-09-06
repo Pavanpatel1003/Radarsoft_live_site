@@ -65,7 +65,7 @@ const Staff = () => {
   return (
     <>
       {/* staff details title section */}
-      <section className="career-banner">
+      <section className="career-banner common_margin_space">
         <div className="container">
           <div className="career-banner-title">
             <div className="details-new">
@@ -100,7 +100,7 @@ const Staff = () => {
       </section>
 
       {/* staff details banner section */}
-      <section className="py-4">
+      <section className="common_margin_space">
         <div className="w-100 h-100 career_img">
           <Image
             className="w-100 d-lg-block"
@@ -189,7 +189,7 @@ const Staff = () => {
       {/* END STAF */}
 
       {/* START STAY AHED */}
-      <section className="service-contact">
+      <section className="service-contact common_margin_space">
         <div className="container">
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
@@ -242,7 +242,7 @@ const Staff = () => {
       {/* END STAY AHED */}
 
       {/* START OUR PROCESS */}
-      <section className="our-process">
+      <section className="our-process common_margin_space">
         <div className="container">
           <div className="row">
             <div className="commom-heading">
@@ -341,7 +341,7 @@ const Staff = () => {
       {/* END OUR PROCESS */}
 
       {/* START OUR EXPERTISE*/}
-      <section className="our-contact">
+      <section className="our-contact common_margin_space">
         <div className="container">
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-5 service-set-box">
@@ -405,7 +405,7 @@ const Staff = () => {
       {/* END OUR EXPERTISE */}
 
       {/* START SERVICE */}
-      <section className="staff-following">
+      <section className="staff-following common_margin_space">
         <div className="container">
           <div className="row">
             <div className="service-d-following-head commom-heading">
@@ -530,7 +530,7 @@ const Staff = () => {
       {/* END SERVICE */}
 
       {/* START COMMON CONTACT */}
-      <section className="common-contact">
+      <section className="common-contact common_margin_space mb-100">
         <div className="container">
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">

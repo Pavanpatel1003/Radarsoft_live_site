@@ -50,7 +50,7 @@ const Digital = () => {
   return (
     <>
       {/* digital transformation details title section */}
-      <section className="career-banner">
+      <section className="career-banner common_margin_space">
         <div className="container">
           <div className="career-banner-title">
             <div className="details-new">
@@ -85,7 +85,7 @@ const Digital = () => {
       </section>
 
       {/* digital transformation banner section */}
-      <section className="py-4">
+      <section className="common_margin_space">
         <div className="w-100 h-100 career_img">
           <Image
             className="w-100 d-lg-block"
@@ -175,7 +175,7 @@ const Digital = () => {
       {/* END TRANSFORM */}
 
       {/* START STAY AHED */}
-      <section className="service-contact">
+      <section className="service-contact common_margin_space mb_100">
         <div className="container">
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 digital_relative">
@@ -317,7 +317,7 @@ const Digital = () => {
       {/* END SERVICE */}
 
       {/* START COMMON CONTACT */}
-      <section className="common-contact">
+      <section className="common-contact common_margin_space mb-100">
         <div className="container">
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">

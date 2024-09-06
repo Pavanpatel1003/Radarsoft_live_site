@@ -31,7 +31,7 @@ import common_contact from "../../../../public/assets/media/common/common-contac
 const Case_trac = () => {
   return (
     <>
-      <section className="case-back-studies">
+      <section className="case-back-studies common_margin_space">
         <div className="container">
           <div className="row">
             <div className="case-back-btn">
@@ -47,7 +47,7 @@ const Case_trac = () => {
         </div>
       </section>
 
-      <section className="">
+      <section className="common_margin_space">
         <div className="container-fluid work-area-lower-sides">
           <div className="container">
             <div className="row work-area-lower-sides">
@@ -133,7 +133,7 @@ const Case_trac = () => {
       </section>
 
       {/* START THE CHALLENGE */}
-      <section className="chalange-sec">
+      <section className="chalange-sec common_margin_space">
         <div className="container">
           <div className="row">
             <div className="commom-heading">
@@ -160,7 +160,7 @@ const Case_trac = () => {
       {/* END THE CHALLENGE */}
 
       {/* START KEY OBJECTIVE */}
-      <section className="key-object">
+      <section className="key-object common_margin_space">
         <div className="container">
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6">
@@ -200,7 +200,7 @@ const Case_trac = () => {
       {/* END KEY OBJECTIVE */}
 
       {/* START OUR PROCESS */}
-      <section className="our-process">
+      <section className="our-process common_margin_space">
         <div className="container">
           <div className="row">
             <div className="commom-heading">
@@ -305,7 +305,7 @@ const Case_trac = () => {
       {/* END OUR PROCESS */}
 
       {/* START IMPOWERING */}
-      <section className="Empowering-sec">
+      <section className="Empowering-sec common_margin_space">
         <div className="container">
           <div className="row">
             <div className="commom-heading">
@@ -378,7 +378,7 @@ const Case_trac = () => {
       {/* END IMPOWERING */}
 
       {/* START KEY ACCOMPLISHEMENTS */}
-      <section className="key-sec">
+      <section className="key-sec common_margin_space">
         <div className="container">
           <div className="row">
             <div className="commom-heading">
@@ -475,7 +475,7 @@ const Case_trac = () => {
       {/* END KEY ACCOMPLISHEMENTS */}
 
       {/* START OPTIMIZED  */}
-      <section className="Optimized-sec">
+      <section className="Optimized-sec common_margin_space">
         <div className="container">
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-7">
@@ -531,7 +531,7 @@ const Case_trac = () => {
       {/* END OPTIMIZED  */}
 
       {/* START OUR TECH */}
-      <section className="our-tech-sec">
+      <section className="our-tech-sec common_margin_space">
         <div className="container">
           <div className="row">
             <div className="col-12 col-sm-12 col-md-11 col-lg-5">
@@ -604,7 +604,7 @@ const Case_trac = () => {
       {/* END OUR TECH */}
 
       {/* START THE RESULT */}
-      <section class="result-sec">
+      <section class="result-sec common_margin_space">
         <div class="container case-d-main-result">
           <div className="commom-heading">
             <h2>The results</h2>
@@ -684,7 +684,7 @@ const Case_trac = () => {
       {/* END THE RESULT */}
 
       {/* START COMMON CONTACT */}
-      <section className="common-contact">
+      <section className="common-contact common_margin_space mb-100">
         <div className="container">
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">

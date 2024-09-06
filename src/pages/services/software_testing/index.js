@@ -58,7 +58,7 @@ const Software_testing = () => {
   return (
     <>
       {/* service details title section */}
-      <section className="career-banner">
+      <section className="career-banner common_margin_space">
         <div className="container">
           <div className="career-banner-title">
             <div className="details-new">
@@ -95,7 +95,7 @@ const Software_testing = () => {
       </section>
 
       {/* service details banner section */}
-      <section className="py-4">
+      <section className="common_margin_space">
         <div className="w-100 h-100 career_img">
           <Image
             className="w-100 d-lg-block"
@@ -184,7 +184,7 @@ const Software_testing = () => {
       {/* END EXPERIENCE */}
 
       {/* START OUR TEAM */}
-      <section className="service-contact mb-5">
+      <section className="service-contact common_margin_space mb_100">
         <div className="container">
           <div className="row gx-5">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 service-set-box">

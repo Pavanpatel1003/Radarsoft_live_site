@@ -43,7 +43,7 @@ const Contact = () => {
 
   return (
     <>
-      <section className="inner-head">
+      <section className="inner-head common_margin_space">
         <div className="container">
           <div className="row">
             <div className="inner-head-wrap">
@@ -60,7 +60,7 @@ const Contact = () => {
       </section>
 
       {/* START REACH */}
-      <section className="mb-5">
+      <section className="common_margin_space mb-100">
         <div className="container bgcontent">
           <div className="commom-heading">
             <h2>Reach out</h2>
@@ -83,8 +83,8 @@ const Contact = () => {
                       <i className="fas fa-phone"></i>
                     </div>
                     <p>
-                      <Link href="tel:+9545126030" className="info-box_link">
-                        9545126030
+                      <Link href="tel:+917028404033" className="info-box_link">
+                      +91 7028404033
                       </Link>
                     </p>
                   </div>

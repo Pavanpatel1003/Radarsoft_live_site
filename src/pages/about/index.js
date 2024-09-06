@@ -23,9 +23,9 @@ const About = () => {
         <title>About Us</title>
       </Head>
       {/* about title section */}
-      <section className="about-banner">
-        <div className="container py-4">
-          <div className="mt-4 about-banner-title">
+      <section className="about-banner common_margin_space">
+        <div className="container">
+          <div className="about-banner-title">
             <div className="">
               <p className="about-heading">Our Journey Over the Years</p>
               <p className="about-sub-heading">
@@ -46,7 +46,7 @@ const About = () => {
       </section>
 
       {/* about banner section */}
-      <section className="py-4">
+      <section className="common_margin_space">
         <div className="w-100">
           <Image
             src={mobileBanner}
@@ -58,7 +58,7 @@ const About = () => {
       </section>
 
       {/* journey section */}
-      <section className="about-journey-area col-md-12">
+      <section className="about-journey-area col-md-12 common_margin_space">
         <div className="container">
           <div className="row justify-content-between">
             <div className="about-journey-left-side py-xl-4 col-lg-6 col-md-12 col-12">
@@ -75,7 +75,7 @@ const About = () => {
               </p>
               <p className="about-center-heading">Leading with Innovation</p>
               <hr className="mt-0" />
-              <p>
+              <p className="about-journey-left-paragraph">
                 At RadarSoft, Our focus on innovation ensures that our systems
                 are not only advanced but also secure and efficient. We listen
                 to our customers' needs and provide solutions that are reliable
@@ -105,7 +105,7 @@ const About = () => {
       {/* <!--about journey closed--> */}
 
       {/* Dedication section */}
-      <section className="dedication-area col-md-12">
+      <section className="dedication-area col-md-12 common_margin_space">
         <div className="container">
           <div className="px-lg-0 px-3">
             <p className="dedication-title">
@@ -153,10 +153,10 @@ const About = () => {
       {/* <!--Dedication section--> */}
 
       {/* core values section */}
-      <section className="core-values-area col-md-12">
+      <section className="core-values-area col-md-12 common_margin_space">
         <div className="container">
           <div className="row justify-content-between core-values-row">
-            <div className="about-journey-left-side py-4 col-lg-5 col-12">
+            <div className="about-journey-left-side col-lg-5 col-12">
               <h1 className="about-journey-left-heading">Our core values</h1>
               <p className="about-journey-left-paragraph m-0">
                 At RadarSoft, we believe in giving back to our community and
@@ -226,7 +226,7 @@ const About = () => {
       {/* <!--core values closed--> */}
 
       {/* claim section start  */}
-      <section className="claim-area">
+      <section className="claim-area common_margin_space mb-100">
         <div className="container">
           <div className="row">
             <div className="mb-md-5 mb-3">

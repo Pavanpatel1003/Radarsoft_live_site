@@ -62,9 +62,9 @@
     font-size: 38px;
   }
 
-  .logo-promtion {
+  /* .logo-promtion {
     margin: 10px auto 80px;
-  }
+  } */
 
   /* Ankita */
   img.work-picture-1 {
@@ -140,14 +140,18 @@
   .work-area-upper-heading,
   .service-area-upper-side-heading,
   .experience-area-heading,
-  .experience-low-left-heading, .about-heading , .about-journey-left-heading ,.dedication-title, .claim-area-upper-side-heading{
+  .experience-low-left-heading,
+  .about-heading,
+  .about-journey-left-heading,
+  .dedication-title,
+  .claim-area-upper-side-heading {
     font-size: 30px !important;
-    line-height: 40px  !important;
+    line-height: 40px !important;
   }
 
-  .work-area-lower-heading {
+  /* .work-area-lower-heading {
     font-size: 21px;
-  }
+  } */
 
   .logo-promotion-heading {
     font-size: 30px;
@@ -158,9 +162,9 @@
     font-size: 26px;
   }
 
-  .banner-area {
+  /* .banner-area {
     padding: 60px 0;
-  }
+  } */
 
   .banner-left-side-area {
     padding-right: 0px;
@@ -176,8 +180,12 @@
     padding: 20px;
   }
 
-  .banner-right-side-box input {
+  /* .banner-right-side-box input {
     margin-bottom: 25px;
+  } */
+
+  .banner-right-side-box input {
+    margin-bottom: 5px;
   }
 
   .banner-paragraph {
@@ -247,6 +255,12 @@
 @media screen and (max-width: 767px) {
   /* Ankita */
 
+  .logo-promotion-images {
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+  }
+
   .work-lower-right {
     display: none;
   }
@@ -275,7 +289,7 @@
     gap: 20px;
   }
   .about-us-area {
-    margin: 60px auto 172px auto;
+    /* margin: 60px auto 172px auto; */
   }
   .nav-center-width {
     width: 100%;

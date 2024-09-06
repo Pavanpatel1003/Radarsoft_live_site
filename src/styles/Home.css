@@ -26,9 +26,9 @@ header {
 
 /* banner area started */
 .banner-area {
-  margin: 0 auto;
-  max-width: 1440px;
-  padding: 100px 0;
+  /* margin: 0 auto; */
+  /* max-width: 1440px; */
+  /* padding: 100px 0; */
 }
 
 .banner-left-side-area {
@@ -55,7 +55,7 @@ header {
 
 .banner-button {
   width: 196px;
-  height: 48px;
+  height: 60px;
   border-radius: 6px;
   margin-top: 15px;
   background: #002237;
@@ -142,8 +142,8 @@ header {
 /*advertisemnt page */
 
 .logo-promtion {
-  max-width: 1440px;
-  margin: 50px auto 100px;
+  /* max-width: 1440px; */
+  /* margin: 50px auto 100px; */
 }
 .logo-promotion-heading {
   font-family: Roboto Serif;
@@ -163,10 +163,9 @@ header {
 
 /*unique area started */
 .unique-area {
-  /* background: #b7d3fe; */
   display: block;
-  padding: 60px 0;
-  margin: 60px auto;
+  /* padding: 60px 0; */
+  /* margin: 60px auto; */
 }
 
 .unique-area-label {
@@ -266,7 +265,7 @@ header {
 
 .service-area {
   background: url(/assets/media/service.png) no-repeat center right;
-  margin: 60px auto;
+  /* margin: 60px auto; */
   display: block;
 }
 img.service {
@@ -320,7 +319,7 @@ img.service {
 /*work area started */
 
 .work-area {
-  margin: 60px auto;
+  /* margin: 60px 0px 0px 0px; */
   display: block;
 }
 .work-area-upper-heading {
@@ -399,7 +398,7 @@ img.service {
 
 .experience-area {
   display: block;
-  margin: 60px auto;
+  /* margin: 60px auto; */
 }
 
 .experience-area-heading {
@@ -489,7 +488,7 @@ img.service {
 /*about us area started */
 
 .about-us-area {
-  margin: 60px auto;
+  /* margin: 60px auto; */
   display: flex;
   background: url(/assets/media/back.png) no-repeat right 60px;
 }
@@ -513,7 +512,7 @@ img.service {
 }
 
 .about-us-left-button {
-  height: 48px;
+  height: 60px;
   width: 232px;
   border-radius: 8px;
   background-color: #002237;

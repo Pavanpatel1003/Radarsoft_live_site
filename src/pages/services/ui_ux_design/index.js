@@ -59,7 +59,7 @@ const Ui_ux = () => {
   return (
     <>
       {/* service details title section */}
-      <section className="career-banner">
+      <section className="career-banner common_margin_space">
         <div className="container">
           <div className="career-banner-title">
             <div className="details-new">
@@ -96,7 +96,7 @@ const Ui_ux = () => {
       </section>
 
       {/* service details banner section */}
-      <section className="py-4">
+      <section className="common_margin_space">
         <div className="w-100 h-100 career_img">
           <Image
             className="w-100 d-lg-block"
@@ -189,7 +189,7 @@ const Ui_ux = () => {
       {/* END EXPERIENCE */}
 
       {/* START OUR TEAM */}
-      <section className="service-contact mb-5">
+      <section className="service-contact common_margin_space">
         <div className="container">
           <div className="row gx-5">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 service-set-box">
@@ -225,7 +225,7 @@ const Ui_ux = () => {
       {/* END OUR TEAM */}
 
       {/* START FOLLOWING */}
-      <section className="service-d-following">
+      <section className="service-d-following common_margin_space">
         <div className="container">
           <div className="row">
             <div className="service-d-following-head commom-heading">

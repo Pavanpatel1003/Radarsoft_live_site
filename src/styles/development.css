@@ -109,9 +109,9 @@
   font-family: Roboto Serif;
 }
 
-.about-journey-area {
+/* .about-journey-area {
   margin: 60px auto;
-}
+} */
 .about-journey-left-side {
   display: flex;
   flex-direction: column;
@@ -249,9 +249,9 @@
   margin-top: 20px;
 }
 
-.claim-area {
+/* .claim-area {
   margin: 60px auto;
-}
+} */
 
 .claim-boxe-1 h6,
 .claim-boxe-2 h6,
@@ -310,7 +310,7 @@
 
 /* core value start  */
 .core-values-area {
-  margin: 100px auto;
+  /* margin: 100px auto; */
   background: url(/assets/media/bg-net.png) no-repeat 850px 160px;
 }
 
@@ -341,9 +341,9 @@
   line-height: 30px;
   text-align: left;
 }
-.career-job-area {
+/* .career-job-area {
   margin: 60px auto;
-}
+} */
 .career-job-title {
   font-family: Roboto Serif;
   font-size: 56px;

@@ -4,7 +4,7 @@
     line-height: 28px;
   }
 
-  .details-new{
+  .details-new {
     flex-direction: column;
     align-items: start;
     margin-bottom: 20px;
@@ -61,17 +61,21 @@
     margin-bottom: 20px;
   }
 
-  .common-contact {
+  /* .common-contact {
     padding: 50px 0px;
-  }
+  } */
 
   .uparrow {
     padding: 10px 10px;
   }
 
   .case-d-num {
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 700;
+  }
+
+  .case_d_key {
+    justify-content: start;
   }
 
   .case_d_opt {
@@ -92,9 +96,9 @@
     padding: 50px 0px;
   }
 
-  .career-job-area {
+  /* .career-job-area {
     margin: 25px auto;
-  }
+  } */
 
   .grid-item img {
     max-height: 30px;
@@ -167,9 +171,85 @@
   .digital_sec_bg {
     margin-bottom: 20px;
   }
+
+  .work-area-lower-heading,
+  .claim-area-upper-side-heading,
+  .dedication-title,
+  .about-journey-left-heading,
+  .about-heading,
+  .unique-area-heading,
+  .service-area-upper-side-heading,
+  .banner-heading,
+  .logo-promotion-heading,
+  .commom-heading h2 {
+    font-size: 40px !important;
+    line-height: 60px !important;
+  }
 }
 
 @media screen and (max-width: 767px) {
+  .first_space {
+    margin-top: 40px;
+  }
+
+  .common_margin_space {
+    margin-top: 60px;
+  }
+
+  .work-area-lower-heading,
+  .claim-area-upper-side-heading,
+  .dedication-title,
+  .about-journey-left-heading,
+  .about-heading,
+  .experience-low-left-heading,
+  .about-us-left-heading,
+  .unique-area-heading,
+  .service-area-upper-side-heading,
+  .banner-heading,
+  .experience-area-heading,
+  .logo-promotion-heading,
+  .work-area-upper-heading,
+  .commom-heading h2 {
+    font-size: 32px !important;
+    line-height: 42px !important;
+  }
+
+  .case-d-num {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .staff-stay p,
+  .service-d-stay ul li,
+  .staff-d-stay ul li,
+  .claim-boxe-1 p,
+  .claim-boxe-2 p,
+  .claim-boxe-3 p,
+  .claim-boxe-4 p,
+  .dedication-para,
+  .about-journey-left-paragraph,
+  .card-body p,
+  .banner-paragraph,
+  .service-area-upper-side-paragraph,
+  .work-area-lower-paragraph,
+  .work-area-upper-paragraph,
+  .case-d-result p,
+  .normal-desc,
+  .sub-text-heading ul li,
+  .commom-heading p,
+  .emproving_secound p {
+    text-align: justify;
+  }
+
+  .career-job-input button {
+    background: #002237;
+    height: 56px;
+    width: auto;
+    border-radius: 0px 4px 4px 0px;
+    color: #ffffff;
+  }
+
+  /* ----------------------------------------- */
   .service_details_our {
     justify-content: left !important;
   }
@@ -189,9 +269,9 @@
     font-size: 16px;
     line-height: 26px;
   }
-  .banner-area {
+  /* .banner-area {
     margin-top: 20px;
-  }
+  } */
 
   .service-d-following-head h3 {
     font-size: 25px;
@@ -203,10 +283,14 @@
     line-height: 30px;
   }
 
-  .service-contact {
+  .grid-container {
+    gap: 20px;
+  }
+
+  /* .service-contact {
     margin-bottom: 0px;
     padding-top: 50px;
-  }
+  } */
   .commom-heading p {
     font-size: 16px;
     line-height: 26px;
@@ -222,9 +306,13 @@
     line-height: 30px;
   }
 
-  .banner-area {
+  /* .banner-area {
     padding: 10px 0;
-  }
+  } */
+
+  /* .banner-area {
+    padding: 25px 0 0px 0px;
+  } */
 
   .banner-right-side-h3 {
     font-size: 22px;
@@ -273,7 +361,7 @@
     gap: 20px;
   }
   .about-us-area {
-    margin: 60px auto 172px auto;
+    /* margin: 60px auto 172px auto; */
   }
 
   .info-box-set {
@@ -422,9 +510,20 @@
     font-weight: 600 !important;
   }
 
+  .staff-process-container {
+    justify-content: center;
+  }
+
+  .service-d-stay ul li p {
+    font-size: 16px;
+    margin-bottom: 35px;
+    line-height: 30px;
+    font-family: "Inter";
+    font-weight: 400;
+  }
+
   .our_img {
-    width: 586px;
-    height: 684px;
+    height: auto !important;
   }
 
   .our_img img {
