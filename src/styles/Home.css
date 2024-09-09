@@ -156,7 +156,7 @@ header {
 .logo-promotion-images {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
 }
 
 /*advertisemnt page finished */

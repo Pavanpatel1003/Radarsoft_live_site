@@ -191,10 +191,37 @@ const Footer = () => {
               <div className="col-xs-12 col-md-5 order-0 order-md-1 right-footer-padding">
                 <div className="social-media-wrapper">
                   <div className="last-logo">
-                    <i className="fa-brands fa-whatsapp"></i>
-                    <i className="fa-brands fa-facebook"></i>
+                    {/* <i className="fa-brands fa-whatsapp"></i> */}
+                    {/* <i className="fa-brands fa-facebook"></i>
                     <i className="fa-brands fa-instagram"></i>
-                    <i className="fa-brands fa-linkedin"></i>
+                    <i className="fa-brands fa-linkedin"></i> */}
+                    <a
+                      href="https://www.facebook.com/radarsofttechnologies/"
+                      aria-label="Facebook"
+                      title="Facebook"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="fa-brands fa-facebook soical_icon"></i>
+                    </a>
+                    <a
+                      href="https://www.instagram.com/radarsofttech/"
+                      aria-label="Instagram"
+                      title="Instagram"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="fa-brands fa-instagram soical_icon"></i>
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/company/radar-soft-technologies/"
+                      aria-label="LinkedIn"
+                      title="LinkedIn"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="fa-brands fa-linkedin soical_icon"></i>
+                    </a>
                   </div>
                 </div>
               </div>
