@@ -683,7 +683,7 @@ export default function Home() {
             <div className="row">
               <div className="">
                 <h1 className="experience-area-heading">
-                  Over 5+ years of hands-on experience, we bring a wealth of
+                  Over 8+ years of hands-on experience, we bring a wealth of
                   knowledge and expertise to every project.
                 </h1>
                 <p className="experience-area-paragraph mt-4">
