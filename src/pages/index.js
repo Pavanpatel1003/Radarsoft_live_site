@@ -2,10 +2,14 @@ import Head from "next/head";
 import Image from "next/image";
 import acad_logo from "../../public/assets/media/acad_logo2.png";
 // import merkle from "../../public/assets/media/Merkle_black.svg.png";
-import abhyan_logo from "../../public/assets/media/abhyan_logo.png";
+import nbajaj from "../../public/assets/media/nbajaj.png";
 import cat_logo from "../../public/assets/media/cat_logo.png";
-import totd_logo from "../../public/assets/media/totd_logo.png";
-import bajaj_logo from "../../public/assets/media/bajaj_logo.png";
+import nlandt from "../../public/assets/media/nlandt.png";
+import ntodo from "../../public/assets/media/ntodo.png";
+import nrazor from "../../public/assets/media/nrazor.png";
+import nyan from "../../public/assets/media/nyan.png";
+import nacad from "../../public/assets/media/nacad.png";
+import nbig from "../../public/assets/media/nbig.png";
 import RD_Process from "../../public/assets/gif/RapidDesign.gif";
 import rapid_dev from "../../public/assets/gif/RapidDevelopment.gif";
 import continious_iteration from "../../public/assets/gif/itrations.gif";
@@ -249,20 +253,52 @@ export default function Home() {
         {/* <!--banner area finished--> */}
 
         {/* <!--logo promtion --> */}
-        <section className="logo-promtion common_margin_space common_margin_space">
+        <section className="logo-promtion common_margin_space">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
                 <h1 className="logo-promotion-heading">
                   Companies we have worked with
                 </h1>
-                <div className="logo-promotion-images">
-                  <Image src={acad_logo} alt="" />
+                <div className="logo-promotion-images row row-cols-1 row-cols-lg-4 g-2 g-lg-5">
+                <div class="col">
+                <Image src={nbajaj} alt="" />
+                </div>
+                <div class="col">
+                <Image src={nlandt} alt="" />
+
+                </div>
+                <div class="col">
+                <Image src={ntodo} alt="" />
+
+                </div>
+                <div class="col">
+                <Image src={nrazor} alt="" />
+
+                </div>
+                <div class="col">
+                <Image src={cat_logo} alt="" />
+                </div>
+                <div class="col">
+                <Image src={nyan} alt="" />
+
+                </div>
+                <div class="col">
+                <Image src={nacad} alt="" />
+
+                </div>
+                <div class="col">
+                <Image src={nbig} alt="" />
+
+                </div>
+                  
                   {/* <Image src={merkle} alt="" /> */}
+                  {/* <Image src={cat_logo} alt="" />
+                  <Image src={bajaj_logo} alt="" />
                   <Image src={abhyan_logo} alt="" />
                   <Image src={cat_logo} alt="" />
                   <Image src={totd_logo} alt="" />
-                  <Image src={bajaj_logo} alt="" />
+                  <Image src={bajaj_logo} alt="" /> */}
                 </div>
               </div>
             </div>

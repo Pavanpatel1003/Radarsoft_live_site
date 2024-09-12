@@ -259,6 +259,7 @@
     flex-wrap: wrap;
     gap: 70px;
     justify-content: center;
+    text-align: center;
   }
 
   .work-lower-right {
